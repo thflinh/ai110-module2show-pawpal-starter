@@ -1,0 +1,37 @@
+classDiagram
+    direction TB
+    class Owner {
+        +str name
+        +list pets
+        +add_pet(Pet)
+        +get_pet(str) Pet
+        +all_tasks_with_pet() list
+    }
+    class Pet {
+        +str name
+        +str species
+        +list tasks
+        +add_task(Task)
+    }
+    class Task {
+        +str description
+        +str time_str
+        +str frequency
+        +bool completed
+        +date task_date
+        +str priority
+        +mark_complete()
+        +sort_key() tuple
+    }
+    class Scheduler {
+        +Owner owner
+        +get_all_tasks()
+        +sort_by_time()
+        +filter_by_completion(bool)
+        +filter_by_pet_name(str)
+        +detect_conflicts()
+        +mark_task_complete(Pet, Task)
+    }
+    Owner "1" --> "*" Pet : owns
+    Pet "1" --> "*" Task : has
+    Scheduler --> Owner : coordinates
