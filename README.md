@@ -64,9 +64,10 @@ Tests cover: task completion, adding tasks to a pet, **chronological sorting**, 
 
 ## 📸 Demo
 
-Replace the image path with your own screenshot after you run the app.
+<img width="590" height="551" alt="Screenshot 2026-04-01 170227" src="https://github.com/user-attachments/assets/5e8c3023-02a2-4064-bcdb-8fe782de55a2" />
 
-<a href="/course_images/ai110/your_screenshot_name.png" target="_blank"><img src='/course_images/ai110/your_screenshot_name.png' title='PawPal App' width='' alt='PawPal App' class='center-block' /></a>
+<img width="603" height="714" alt="Screenshot 2026-04-01 170336" src="https://github.com/user-attachments/assets/ad6f1037-b57d-4f2d-93dc-4d6900108c97" />
+
 
 Local run:
 
